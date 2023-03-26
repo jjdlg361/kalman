@@ -33,7 +33,7 @@
 <p>The code includes a plot of the estimated object distance over time, as well as the ground truth measurements and the measurements from the lidar, radar, and stereoscopic camera sensors.</p>
 
 <h2>License</h2>
-<p>This code is provided under the MIT License. See the LICENSE file for details.</p>
+<p>This code is provided under the MIT License.</p>
 
 <h2>Contributing</h2>
 <p>Contributions to this code are welcome. To contribute, please fork the repository, make your changes, and submit a pull request.</p>
