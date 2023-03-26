@@ -31,6 +31,11 @@
 
 <h2>Plotting</h2>
 <p>The code includes a plot of the estimated object distance over time, as well as the ground truth measurements and the measurements from the lidar, radar, and stereoscopic camera sensors.</p>
+	
+<h2>Other sensor fusion kalman filters</h2>
+<p>This repository includes code for sensor fusion with lidar and camera measurements, as well as radar and camera measurements. Additionally, it includes individual Kalman filter implementations for each of the sensors.</p>
+<p>The lidar and camera fusion code is located in the file "lidarcamerapurelylinearexp2.m", and the radar and camera fusion code is located in the file "radarcamerapurelylinearexp2.m". The individual Kalman filter implementations for lidar, camera, and radar are located in the files "lidarpurelylinearexp2.m", "camerapurelylinearexp2.m", and "radarpurelylinearexp2.m", respectively.</p>
+<p>These implementations use similar steps to the main Kalman filter implementation for sensor fusion, including resampling, interpolation, prediction, and update steps. The individual Kalman filters are useful for applications where only one sensor is available or for comparison with the fused sensor data.</p>
 
 <h2>License</h2>
 <p>This code is provided under the MIT License.</p>
